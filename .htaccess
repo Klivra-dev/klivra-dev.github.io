@@ -1,8 +1,0 @@
-# Disable directory listing
-Options -Indexes
-
-# Security headers
-<IfModule mod_headers.c>
-  Header always set X-Frame-Options "SAMEORIGIN"
-  Header always set X-Content-Type-Options "nosniff"
-</IfModule>
